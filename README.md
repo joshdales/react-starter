@@ -8,6 +8,6 @@ Currently set up with the following:
 - `react` 17
 - `webpack` 5
 - `typescript` 4
-- `eslint` 7
+- `eslint` 8
 
 And a few other supporting packages
