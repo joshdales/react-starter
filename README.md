@@ -1,13 +1,21 @@
-# Webpack React App
+# Starter React App
 
-This is a template repo for a webpack based react app. Doesn't contain anything fancy,
-just a setup for quickly developing in react with Typescript that can deploy to github pages.
+This is a template repo for a quick react app. Doesn't contain anything fancy,
+just a setup for quickly developing a React app with Typescript that can deploy to github pages.
 
 Currently set up with the following:
 
-- `react` 17
-- `webpack` 5
-- `typescript` 4
-- `eslint` 8
+- `react`
+- `typescript`
+- `scss`
+- `vite`
 
-And a few other supporting packages
+And a few other supporting packages.
+
+## Run the project
+
+```
+ npm run dev
+```
+
+Then go to `localhost:3000`

@@ -1,16 +1,24 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
-    "noImplicitAny": true,
-    "module": "es6",
-    "target": "es5",
-    "jsx": "react",
-    "allowJs": true,
-    "sourceMap": true,
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "types": ["node", "react"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": false,
+    "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": false
-  }
+    "noEmit": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "strict": true,
+    "useDefineForClassFields": true
+  },
+  "include": ["vite.config.ts", "src/**/*"],
+  "exclude": ["node_modules"]
 }

@@ -1,6 +1,14 @@
 import * as React from 'react'
-import { render } from 'react-dom'
-
+import * as ReactDOM from 'react-dom/client'
 import App from './App'
 
-render(<App />, document.getElementById('app'))
+const element = document.getElementById('app')
+if (!element) {
+  throw new Error('there is no root element')
+}
+
+ReactDOM.createRoot(element).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+)
