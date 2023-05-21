@@ -8,11 +8,11 @@ const App: React.FC = () => {
       <main>
         <h1>This is a basic React app</h1>
 
-        <p>It's for quickly creating a Typescript based react app.</p>
+        <p>It's for quickly creating a Typescript based react app with settings that I like.</p>
 
         <p>
-          It doesn't do anything fancy, it's just an easy setup for getting
-          started with some tools like eslint and prettier.
+          It doesn't do anything fancy, it's just an easy setup for getting started with some tools
+          like eslint and prettier.
         </p>
 
         <p>And as an added bonus you can easily deploy it to Github Pages</p>
@@ -20,10 +20,7 @@ const App: React.FC = () => {
 
       <footer>
         <p>
-          Made with the{' '}
-          <a href="https://github.com/joshdales/webpack-react-app">
-            webpack-react-app
-          </a>{' '}
+          Made with the <a href="https://github.com/joshdales/react-starter">react-starter</a>{' '}
           template
         </p>
       </footer>

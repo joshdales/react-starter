@@ -1,20 +1,21 @@
 {
   "name": "react-starter",
+  "author": "Josh Dales",
+  "license": "MIT",
   "version": "1.0.0",
   "description": "A base for a react app",
   "main": "index.tsx",
   "type": "module",
+  "browserslist": "last 2 versions",
+  "engines": {
+    "node": "^20.2.0"
+  },
   "scripts": {
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src",
     "dev": "vite dev",
     "build": "vite build --minify",
     "deploy": "npm run build && gh-pages -d dist"
   },
-  "engines": {
-    "node": "^20.2.0"
-  },
-  "author": "Josh Dales",
-  "license": "MIT",
   "dependencies": {
     "modern-normalize": "^2.0.0",
     "react": "18.2.0",

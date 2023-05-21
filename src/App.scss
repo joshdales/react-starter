@@ -1,37 +1,23 @@
-* {
-  box-sizing: content-box;
-  margin: 0;
-  padding: 0;
-}
-
 html,
 body,
 .App {
   height: 100%;
 }
 
-html {
-  font-family: sans-serif;
-}
-
-body {
-  margin: 0;
-}
-
 h1 {
   text-transform: capitalize;
-  margin-bottom: 2rem;
+  margin: 0 0 24px 0;
 }
 
 main,
 footer {
   max-width: 600px;
   margin: 0 auto;
-  padding: 2.5rem;
+  padding: 40px;
 }
 
 p {
-  margin: 0.75rem 0;
+  margin: 12px 0;
 }
 
 footer p {

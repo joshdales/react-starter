@@ -1,6 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import autoprefixer from 'autoprefixer'
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore - this package doesn't have any types :(
 import pxToRem from 'postcss-pxtorem'
 
 export default defineConfig({
@@ -8,7 +10,6 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-  envPrefix: 'API_',
   css: {
     modules: {
       localsConvention: 'camelCaseOnly',
