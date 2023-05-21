@@ -5,13 +5,12 @@
   "version": "1.0.0",
   "description": "A base for a react app",
   "main": "index.tsx",
-  "type": "module",
   "browserslist": "last 2 versions",
   "engines": {
     "node": "^20.2.0"
   },
   "scripts": {
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src",
+    "lint": "prettier -c . && eslint --ext .js,.jsx,.ts,.tsx",
     "dev": "vite dev",
     "build": "vite build --minify",
     "deploy": "npm run build && gh-pages -d dist"
