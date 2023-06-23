@@ -18,7 +18,10 @@ jobs:
           npm install
           npm run build
 
-      - name: Archive build artifacts
+      - name: Tar files
+        run: tar -cvf github-pages.tar dist
+
+      - name: Upload Artifact
         uses: actions/upload-artifact@v3
         with:
           name: github-pages
