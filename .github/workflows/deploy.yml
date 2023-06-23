@@ -18,13 +18,9 @@ jobs:
           npm install
           npm run build
 
-      - name: Tar files
-        run: tar -cvf github-pages.tar dist
-
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1.0.9
         with:
-          name: github-pages
           path: dist
 
   deploy:
