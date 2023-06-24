@@ -3,6 +3,8 @@ import react from '@vitejs/plugin-react'
 import autoprefixer from 'autoprefixer'
 import pxToRem from 'postcss-pxtorem'
 
+const base = import.meta.env?.REPO_NAME || '/'
+
 export default defineConfig({
   plugins: [react()],
   server: {
@@ -17,4 +19,5 @@ export default defineConfig({
       plugins: [autoprefixer(), pxToRem({ propList: ['*'] })],
     },
   },
+  base,
 })
