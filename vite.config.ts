@@ -3,7 +3,10 @@ import react from '@vitejs/plugin-react'
 import autoprefixer from 'autoprefixer'
 import pxToRem from 'postcss-pxtorem'
 
-const base = process.env.REPO_NAME || '/'
+let base = process.env.REPO_NAME
+if (base && !base.startsWith('/')) {
+  base = `/${base}`
+}
 
 export default defineConfig({
   plugins: [react()],
