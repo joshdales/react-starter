@@ -5,6 +5,6 @@ updates:
     schedule:
       interval: 'monthly'
     groups:
-       everything:
-          patterns:
-            - "*"
+      everything:
+        patterns:
+          - '*'
