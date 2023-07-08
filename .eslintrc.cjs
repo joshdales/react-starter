@@ -25,6 +25,7 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     // React Rules
     'react/no-unescaped-entities': 'off',
+    'react/react-in-jsx-scope': 'off',
     // Other Rules
     'id-length': ['warn', { min: 3, exceptions: ['id'] }],
   },
