@@ -17,7 +17,9 @@
     "skipLibCheck": true,
     "strictNullChecks": true,
     "strict": true,
-    "useDefineForClassFields": true
+    "useDefineForClassFields": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
   },
   "include": ["vite.config.ts", "src/**/*"],
   "exclude": ["node_modules"]

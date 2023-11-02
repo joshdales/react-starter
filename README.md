@@ -7,8 +7,8 @@ Currently set up with the following:
 
 - `react`
 - `typescript`
-- `scss`
 - `vite`
+- A few post-css plugins to make life easier.
 
 And a few other supporting packages.
 
