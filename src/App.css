@@ -1,6 +1,9 @@
-body,
 .App {
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 
 h1 {
@@ -21,11 +24,4 @@ p {
 
 footer p {
   margin: 0;
-}
-
-.App {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-grow: 1;
 }

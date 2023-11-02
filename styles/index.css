@@ -1,3 +1,8 @@
 @import 'modern-normalize' layer(normalize);
 
+html,
+body {
+  height: 100%;
+}
+
 /* Any global styes should live here */
