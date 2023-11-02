@@ -13,7 +13,10 @@ const App: React.FC = () => {
           like eslint and prettier.
         </p>
 
-        <p>And as an added bonus you can easily deploy it to Github Pages</p>
+        <p>
+          And as an added bonus you can easily deploy it to Github Pages by manually running the{' '}
+          <strong>Deploy Project</strong> workflow
+        </p>
       </main>
 
       <footer>
