@@ -18,12 +18,13 @@
   "dependencies": {
     "modern-normalize": "^2.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "tundra-css": "^0.1.0"
   },
   "devDependencies": {
+    "@types/postcss-pxtorem": "^6.0.2",
     "@types/react": "^18.2.34",
     "@types/react-dom": "^18.2.6",
-    "@types/postcss-pxtorem": "^6.0.2",
     "@typescript-eslint/eslint-plugin": "^6.9.1",
     "@typescript-eslint/parser": "^6.9.1",
     "@vitejs/plugin-react": "^4.1.1",
