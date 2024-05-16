@@ -1,7 +1,5 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import autoprefixer from 'autoprefixer'
-import pxToRem from 'postcss-pxtorem'
 
 let base = process.env.REPO_NAME
 if (base && !base.startsWith('/')) {
@@ -14,13 +12,14 @@ export default defineConfig({
     port: 3000,
   },
   css: {
+    transformer: 'lightningcss',
     modules: {
       localsConvention: 'camelCaseOnly',
       generateScopedName: '[name]__[local]',
     },
-    postcss: {
-      plugins: [autoprefixer(), pxToRem({ propList: ['*'] })],
-    },
+  },
+  build: {
+    cssMinify: "lightningcss",
   },
   base,
 })
