@@ -7,7 +7,13 @@ if (base && !base.startsWith('/')) {
 }
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react({
+    babel: {
+      plugins: [
+        "babel-plugin-react-compiler",
+      ]
+    }
+  })],
   server: {
     port: 3000,
   },
