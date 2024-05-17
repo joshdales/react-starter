@@ -1,7 +1,7 @@
 export default {
-  jsxSingleQuote: false,
   printWidth: 100,
+  tabWidth: 2,
   semi: false,
   singleQuote: true,
-  tabWidth: 2,
+  jsxSingleQuote: false,
 }
