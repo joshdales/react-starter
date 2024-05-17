@@ -24,7 +24,7 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     // React Rules
-    'react-compiler/react-compiler': "error",
+    'react-compiler/react-compiler': 'error',
     'react/no-unescaped-entities': 'off',
     'react/react-in-jsx-scope': 'off',
     // Other Rules
