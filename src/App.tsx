@@ -1,6 +1,7 @@
 import './App.css'
 
-const App: React.FC = () => {
+const App: React.FC = () =>{
+
   return (
     <>
       <main>

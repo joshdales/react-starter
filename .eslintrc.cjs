@@ -11,7 +11,7 @@ module.exports = {
       version: 'detect',
     },
   },
-  plugins: ['@typescript-eslint', 'react', 'react-hooks'],
+  plugins: ['@typescript-eslint', 'react-compiler', 'react', 'react-hooks'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
@@ -24,6 +24,7 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     // React Rules
+    'react-compiler/react-compiler': "error",
     'react/no-unescaped-entities': 'off',
     'react/react-in-jsx-scope': 'off',
     // Other Rules
