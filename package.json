@@ -11,8 +11,10 @@
     "node": "^20.2.0"
   },
   "scripts": {
-    "lint": "prettier -c . && eslint --ext .js,.jsx,.ts,.tsx",
-    "dev": "vite dev",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx",
+    "pretty": "prettier -c .",
+    "format": "prettier -w .",
+    "serve": "vite dev",
     "build": "vite build --minify"
   },
   "dependencies": {
