@@ -4,7 +4,7 @@ const App: React.FC = () => {
   return (
     <>
       <main>
-        <h1 className="alt-heading-5">This is a basic React app</h1>
+        <h1 className="heading-5">This is a basic React app</h1>
 
         <p className="body-4">
           It's for quickly creating a Typescript based react app with settings that I like.
@@ -17,13 +17,13 @@ const App: React.FC = () => {
 
         <p className="body-4">
           And as an added bonus you can easily deploy it to Github Pages by manually running the{' '}
-          <strong>Deploy Project</strong> workflow
+          <strong>Deploy Project</strong> workflow.
         </p>
       </main>
 
       <footer>
         <p className="body-1">
-          Made with the <a href="https://github.com/joshdales/react-starter">react-starter</a>{' '}
+          Made with the <a className='link-1' href="https://github.com/joshdales/react-starter">react-starter</a>{' '}
           template
         </p>
       </footer>
