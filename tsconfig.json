@@ -3,7 +3,7 @@
     "baseUrl": ".",
     "jsx": "react-jsx",
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleResolution": "Bundler",
     "target": "ESNext",
     "lib": ["ESNext", "DOM"],
     "types": ["node", "react"],

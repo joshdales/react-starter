@@ -19,7 +19,7 @@ export default defineConfig({
     },
   },
   build: {
-    cssMinify: "lightningcss",
+    cssMinify: 'lightningcss',
   },
   base,
 })
