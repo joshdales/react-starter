@@ -12,8 +12,8 @@
   },
   "scripts": {
     "lint": "eslint --ext .js,.jsx,.ts,.tsx",
-    "pretty": "prettier -c .",
     "format": "prettier -w .",
+    "format:check": "prettier -c .",
     "serve": "vite dev",
     "build": "vite build --minify"
   },
