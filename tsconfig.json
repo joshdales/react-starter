@@ -11,7 +11,9 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
   },
   "include": ["vite.config.ts", "src/**/*"],
   "exclude": ["node_modules"]

@@ -4,6 +4,7 @@ import prettier from 'eslint-config-prettier'
 import react from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactCompiler from 'eslint-plugin-react-compiler'
+import jsxA11y from 'eslint-plugin-jsx-a11y'
 
 export default tseslint.config(
   eslint.configs.recommended,
@@ -21,7 +22,14 @@ export default tseslint.config(
   },
   reactCompiler.configs.recommended,
   {
-    files: ['**/*.ts', '**/*.tsx', '**/*.js', '**/*.jsx'],
+    files: ['**/*.{js,jsx,ts,tsx}'],
+    ...jsxA11y.flatConfigs.recommended,
+    languageOptions: {
+      ...jsxA11y.flatConfigs.recommended.languageOptions,
+    },
+  },
+  {
+    files: ['**/*.{js,jsx,ts,tsx}'],
     rules: {
       '@typescript-eslint/no-unused-vars': [
         'error',
