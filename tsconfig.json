@@ -6,7 +6,7 @@
     "moduleResolution": "Bundler",
     "target": "ESNext",
     "lib": ["ESNext", "DOM"],
-    "types": ["node", "react"],
+    "types": ["react"],
     "esModuleInterop": false,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
