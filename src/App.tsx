@@ -23,9 +23,9 @@ const App: React.FC = () => {
 
       <footer>
         <p className="body-1">
-          Made with the{' '}
+          Made with{' '}
           <a className="link-1" href="https://github.com/joshdales/react-starter">
-            react-starter
+            joshdales/react-starter
           </a>{' '}
           template
         </p>
