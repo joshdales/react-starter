@@ -11,8 +11,8 @@ const App: React.FC = () => {
         </p>
 
         <p className="body-4">
-          It doesn't do anything fancy, it's just an easy setup for getting started with some tools
-          like eslint and prettier.
+          It doesn't do anything fancy, it's just an easy setup for getting started with styles and
+          some tools like eslint and prettier.
         </p>
 
         <p className="body-4">
