@@ -30,4 +30,4 @@ jobs:
       - name: Format
         run: |
           npm install
-          npm run format
+          npm run fmt
