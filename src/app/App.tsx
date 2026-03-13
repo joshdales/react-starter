@@ -1,6 +1,7 @@
+import { Footer } from '$components/Footer'
 import './App.css'
 
-const App: React.FC = () => {
+export const App: React.FC = () => {
 	return (
 		<>
 			<main>
@@ -21,17 +22,7 @@ const App: React.FC = () => {
 				</p>
 			</main>
 
-			<footer>
-				<p className="body-1">
-					Made with{' '}
-					<a className="link-1" href="https://github.com/joshdales/react-starter">
-						joshdales/react-starter
-					</a>{' '}
-					template
-				</p>
-			</footer>
+			<Footer />
 		</>
 	)
 }
-
-export default App
