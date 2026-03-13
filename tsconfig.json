@@ -15,9 +15,9 @@
 		"types": ["node", "react", "react-dom"],
 		"paths": {
 			"$app/*": ["src/app/*"],
-			"$components/*": ["src/components/*"],
-		},
+			"$components/*": ["src/components/*"]
+		}
 	},
 	"include": ["vite.config.ts", "src/**/*"],
-	"exclude": ["node_modules"],
+	"exclude": ["node_modules"]
 }
