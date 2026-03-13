@@ -3,24 +3,18 @@ import tseslint from 'typescript-eslint'
 import prettier from 'eslint-config-prettier'
 import react from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
-import reactCompiler from 'eslint-plugin-react-compiler'
 import jsxA11y from 'eslint-plugin-jsx-a11y'
 
 export default tseslint.config(
 	eslint.configs.recommended,
 	tseslint.configs.strict,
 	prettier,
-	{ ...react.configs.flat.recommended, settings: { react: { version: 'detect' } } },
-	react.configs.flat['jsx-runtime'],
 	{
-		plugins: {
-			'react-hooks': reactHooks,
-		},
-		rules: {
-			...reactHooks.configs.recommended.rules,
-		},
+		...react.configs.flat.recommended,
+		settings: { react: { version: 'detect' } },
 	},
-	reactCompiler.configs.recommended,
+	react.configs.flat['jsx-runtime'],
+	reactHooks.configs.flat.recommended,
 	{
 		files: ['**/*.{js,jsx,ts,tsx}'],
 		...jsxA11y.flatConfigs.recommended,
