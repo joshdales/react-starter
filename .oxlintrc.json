@@ -7,6 +7,10 @@
 	"env": {
 		"builtin": true
 	},
+	"options": {
+		"typeAware": true,
+		"typeCheck": true
+	},
 	"rules": {
 		"constructor-super": "error",
 		"for-direction": "error",
@@ -201,7 +205,7 @@
 					"warn",
 					{
 						"min": 3,
-						"exceptions": ["id"]
+						"exceptions": ["id", "FC"]
 					}
 				],
 				"no-unused-vars": [

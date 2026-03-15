@@ -6,7 +6,6 @@
 		"isolatedModules": true,
 		"skipLibCheck": true,
 		"erasableSyntaxOnly": true,
-		"baseUrl": ".",
 		"jsx": "react-jsx",
 		"module": "ESNext",
 		"moduleResolution": "Bundler",
@@ -14,10 +13,10 @@
 		"lib": ["ESNext", "DOM"],
 		"types": ["node", "react", "react-dom"],
 		"paths": {
-			"$app/*": ["src/app/*"],
-			"$components/*": ["src/components/*"]
-		}
+			"$app/*": ["./src/app/*"],
+			"$components/*": ["./src/components/*"],
+		},
 	},
 	"include": ["vite.config.ts", "src/**/*"],
-	"exclude": ["node_modules"]
+	"exclude": ["node_modules"],
 }
