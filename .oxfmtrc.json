@@ -1,0 +1,12 @@
+{
+	"$schema": "./node_modules/oxfmt/configuration_schema.json",
+	"semi": false,
+	"singleQuote": true,
+	"jsxSingleQuote": false,
+	"arrowParens": "avoid",
+	"useTabs": true,
+	"tabWidth": 2,
+	"printWidth": 100,
+	"sortPackageJson": false,
+	"ignorePatterns": ["node_modules", "dist", "package-lock.json"]
+}
