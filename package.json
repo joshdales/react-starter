@@ -11,11 +11,11 @@
 		"node": "^22.18.0"
 	},
 	"scripts": {
-		"lint": "eslint",
+		"build": "vite build --minify",
+		"dev": "vite dev",
 		"fmt": "prettier -c .",
 		"fmt:fix": "prettier -w .",
-		"serve": "vite dev",
-		"build": "vite build --minify"
+		"lint": "eslint"
 	},
 	"dependencies": {
 		"modern-normalize": "^3.0.1",

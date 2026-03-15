@@ -7,7 +7,7 @@ As a plus though it can deploy to github pages.
 ## Run the project 🏃
 
 ```bash
-npm run serve
+npm run dev
 ```
 
 Then go to `localhost:3000`
